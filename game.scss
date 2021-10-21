@@ -1,0 +1,127 @@
+html {
+    background-color: #77afbf;
+    width: 100vw;
+    height:100vh;
+  }
+body{
+  margin:0;
+}
+.heading{
+    margin-top: 20px;
+    background-color:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div{
+      background-color: #447391;
+      width: 100%;
+      max-width: 500px;
+      border-radius: 10px;
+      box-shadow: rgba(50,50,93,0.25)0px 2px 30px -1px,rgba(0,0,0,0.3)0px 1px 30px -1px;
+      h1{
+        text-align: center;
+        color:white;
+      }
+    }
+
+}
+.game-box{
+  margin-top: 20px;
+  background-color:none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .play-area{
+    background-color:#447391;
+    width:100%;
+    max-width: 500px;
+    height:auto;
+    border-radius: 10px;
+    box-shadow: rgba(50,50,93,0.25)0px 2px 8px -1px,rgba(0,0,0,0.3)0px 1px 8px -1px;
+    display: flex;
+    flex-direction: column;
+    .score-box{
+        h2{
+          text-align: center;
+          color: white;
+        }
+  }
+    .player-container{
+      display:flex;
+      flex-direction: row;
+      justify-content: center;
+      .human{
+        width: 50%;
+        h3{
+          text-align: center;
+          color:white;
+        }
+      }
+      .computer{
+        width:50%;
+        h3{
+          text-align: center;
+          color:white;
+        }
+      }
+    }
+      .score-count{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 30px;
+        .human-score{
+          width: 50%;
+          margin: 0;
+          text-align: center;
+          color:white;
+        }
+        .computer-score{
+          width: 50%;
+          margin:0;
+          text-align: center;
+          color:white;
+        }
+      }
+    #icon{
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding-left: 45px ;
+      padding-right: 45px;
+      li{
+        img{
+          width: 100px;
+          transition: transform .2s;
+          cursor: pointer;
+        }
+        img:hover{
+          transform: scale(1.5);
+        }
+      }
+    }
+    .final-message{
+       display:flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       padding-bottom: 50px;
+       #final-message-text{
+         color: white;
+       }
+       .reset-button{
+         color:white;
+         background-color: #77afbf;
+         padding: 10px 20px 10px 20px;
+         font-size: 20px;
+         border-radius: 10px;
+         border: 1px solid #447391;
+         transition:transform .2s;
+       }
+       .reset-button:hover{
+         transform: scale(1.2);
+       }
+
+    }
+  }
+} 

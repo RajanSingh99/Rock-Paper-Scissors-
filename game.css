@@ -1,0 +1,199 @@
+html {
+  background-color: #77afbf;
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+}
+
+.heading {
+  margin-top: 20px;
+  background-color: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.heading div {
+  background-color: #447391;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 30px -1px, rgba(0, 0, 0, 0.3) 0px 1px 30px -1px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 30px -1px, rgba(0, 0, 0, 0.3) 0px 1px 30px -1px;
+}
+
+.heading div h1 {
+  text-align: center;
+  color: white;
+}
+
+.game-box {
+  margin-top: 20px;
+  background-color: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.game-box .play-area {
+  background-color: #447391;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 8px -1px, rgba(0, 0, 0, 0.3) 0px 1px 8px -1px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 8px -1px, rgba(0, 0, 0, 0.3) 0px 1px 8px -1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.game-box .play-area .score-box h2 {
+  text-align: center;
+  color: white;
+}
+
+.game-box .play-area .player-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.game-box .play-area .player-container .human {
+  width: 50%;
+}
+
+.game-box .play-area .player-container .human h3 {
+  text-align: center;
+  color: white;
+}
+
+.game-box .play-area .player-container .computer {
+  width: 50%;
+}
+
+.game-box .play-area .player-container .computer h3 {
+  text-align: center;
+  color: white;
+}
+
+.game-box .play-area .score-count {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.game-box .play-area .score-count .human-score {
+  width: 50%;
+  margin: 0;
+  text-align: center;
+  color: white;
+}
+
+.game-box .play-area .score-count .computer-score {
+  width: 50%;
+  margin: 0;
+  text-align: center;
+  color: white;
+}
+
+.game-box .play-area #icon {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+.game-box .play-area #icon li img {
+  width: 100px;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+  cursor: pointer;
+}
+
+.game-box .play-area #icon li img:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.game-box .play-area .final-message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 50px;
+}
+
+.game-box .play-area .final-message #final-message-text {
+  color: white;
+}
+
+.game-box .play-area .final-message .reset-button {
+  color: white;
+  background-color: #77afbf;
+  padding: 10px 20px 10px 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 1px solid #447391;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+}
+
+.game-box .play-area .final-message .reset-button:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+/*# sourceMappingURL=game.css.map */
